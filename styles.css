@@ -104,9 +104,10 @@
   }
   
   .information-links {
-    text-align: left;
+    text-align: center;
     font-size: large;
     margin-top: 10px;
+    
   }
 
   .information-links a {
@@ -117,6 +118,7 @@
     margin: 10px;
     border-radius: 5px;
     display: flex;
+    justify-content: center;
     transition: background-color 0.5s ease-in-out;
     }
   
