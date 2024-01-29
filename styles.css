@@ -134,17 +134,113 @@
     font-size: 18px;
   }
 
-  @media only screen and (max-width: 600px) {
-    .nav-list {
-      flex-direction: column;
-      align-items: center;
-    }
-    
-
-    .about-afghanistan {
-        background: #426e83;
-        color: black;
-        font-size: 15px;
-    }
-  }
   
+  @media (max-width: 767px) {
+    /* Your mobile styles here */
+    body {
+        font-size: 14px; }/* Adjust font size for mobile */
+        /* Common styles for all devices */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #fa59ca;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+  .nav {
+      padding: 10px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .nav-links {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .about-afghanistan {
+      padding: 40px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .about-afghanistan h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .cities {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .cities-header {
+      font-size: 22px; /* Adjust font size for smaller screens */
+  }
+
+  .city-link {
+      margin: 10px; /* Adjust margin for smaller screens */
+      width: 250px; /* Adjust width for smaller screens */
+      height: 280px; /* Adjust height for smaller screens */
+  }
+
+  .city-title {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .information-section {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .information-header {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .information-links {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-top: 5px; /* Adjust margin-top for smaller screens */
+  }
+
+  .information-links a {
+      padding: 8px 15px; /* Adjust padding for smaller screens */
+      margin: 5px; /* Adjust margin for smaller screens */
+  }
+
+  footer {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    body {
+        font-size: 16px; /* Adjust font size for tablet */
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    /* Your desktop styles here */
+    body {
+        font-size: 18px; /* Adjust font size for desktop */
+    }
+}
