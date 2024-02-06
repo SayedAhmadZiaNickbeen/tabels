@@ -1,0 +1,20 @@
+.nav {
+    background-color: #fa59ca;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    .nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        .nav-links {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+    }
+}
