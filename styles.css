@@ -1,35 +1,37 @@
 .nav {
-  background-color: #fa59ca;
-  color: white;
-  padding: 10px 20px;
+  background-color: #fc80d5;
   position: fixed;
-  width: 100%;
-  z-index: 1000;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 .nav .nav-list {
   list-style: none;
-  display: flex;
-  justify-content: flex-start;
 }
 .nav .nav-list .nav-links {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 20px;
+  margin: 5px;
+  background: #7eeee5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .about-afghanistan {
   text-align: center;
-  padding: 80px 20px;
+  padding: 220px 30px;
   background-color: #333;
   color: white;
-  height: 200px;
-  width: 100%;
+  height: 250px;
+  width: 100 vw;
   font-size: large;
   text-align: left;
+  display: block;
 }
-.about-afghanistan .about-afghanistan h1 {
+.about-afghanistan h1 {
   text-align: center;
 }
 
@@ -43,7 +45,7 @@ body {
 .cities {
   text-align: center;
   padding: 20px;
-  background-color: #86cfec;
+  background-color: #a8e1f8;
   display: block;
 }
 .cities .cities-header {
@@ -122,15 +124,29 @@ footer {
   font-size: 18px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .nav-list {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-links {
+    padding: 3px;
+  }
+  .about-afghanistan {
+    background-color: #1887bb;
   }
 }
-@media screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
   .nav-list {
+    display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+  }
+  .nav-links {
+    padding: 3px;
+  }
+  .about-afghanistan {
+    background-color: #476b7c;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,20 +1,24 @@
 .nav {
-    background-color: #fa59ca;
-    color: white;
-    padding: 10px 20px;
+    background-color: #fc80d5;
     position: fixed;
-    width: 100%;
-    z-index: 1000;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  
     .nav-list {
         list-style: none;
-        display: flex;
-        justify-content: flex-start;
-        .nav-links {
+    .nav-links {
             color: white;
             text-decoration: none;
             font-weight: bold;
             font-size: 18px;
-            margin-left: 20px;
+            margin: 5px;
+            background: #7eeee5;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            
         }
     }
-}
+  }
+  
